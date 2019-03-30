@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>nick</key>
+			<string>switchpwn</string>
+			<key>cell</key>
+			<string>PSG</string>
+			<key>cellClass</key>
+			<string>KeyShortcutDevCell</string>
+			<key>height</key>
+			<string>100</string>
+			<key>name</key>
+			<string>Mustafa Gezen</string>
+			<key>imageName</key>
+			<string>mustafa</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter</string>
+			<key>action</key>
+			<string>openTwitter:</string>
+			<key>handle</key>
+			<string>@switchpwn</string>
+			<key>cellClass</key>
+			<string>KeyShortcutSocial</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reddit</string>
+			<key>action</key>
+			<string>openReddit:</string>
+			<key>handle</key>
+			<string>/u/switchpwn</string>
+			<key>cellClass</key>
+			<string>KeyShortcutSocial</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>GitHub</string>
+			<key>action</key>
+			<string>openGitHub:</string>
+			<key>handle</key>
+			<string>mstg</string>
+			<key>cellClass</key>
+			<string>KeyShortcutSocial</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Developer</string>
+</dict>
+</plist>

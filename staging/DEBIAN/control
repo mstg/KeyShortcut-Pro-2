@@ -1,0 +1,9 @@
+Package: org.thebigboss.keyshortcutpro
+Name: KeyShortcut Pro
+Version: 1.8.1
+Architecture: iphoneos-arm
+Description: Key shortcuts for text input, Pro version includes profiles and configurable shortcuts
+Maintainer: Mustafa Gezen (switchpwn) <mustiigezen@gmail.com>
+Author: Mustafa Gezen (switchpwn) <mustiigezen@gmail.com>
+Depends: mobilesubstrate, firmware (>= 6.0)
+Section: Tweaks

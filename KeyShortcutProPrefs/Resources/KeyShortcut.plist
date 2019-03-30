@@ -1,0 +1,51 @@
+{
+	items = (
+		{
+			cell = PSGroupCell;
+			headerCellClass = "KeyShortcutHeaderClass";
+		},
+		{
+			footerText = "To apply the settings sytem-wide, respringing the device is adviced";
+			cell = PSGroupCell;
+		},
+		{
+			cell = PSButtonCell;
+			cellClass = "KeyShortcutTintedCell";
+			label = Respring;
+			action = respring;
+		},
+		{
+			cell = PSGroupCell;
+			footerText = "Set which keys invokes which actions";
+		},
+		{
+			cellClass = "KeyShortcutTintedCell";
+			cell = PSLinkCell;
+			detail = "KeyShortcutConfigurationController";
+			isController = 1;
+			label = Configuration;
+		},
+		{
+			cell = PSGroupCell;
+			footerText = "Enable or disable misc. functions";
+		},
+		{
+			cellClass = "KeyShortcutTintedCell";
+			cell = PSLinkCell;
+			detail = "KeyShortcutFunctionsController";
+			isController = 1;
+			label = Functions;
+		},
+		{
+			cell = PSGroupCell;
+			footerText = "Information and identity of the developer";
+		},
+		{
+			cellClass = "KeyShortcutTintedCell";
+			cell = PSLinkCell;
+			detail = "KeyShortcutDeveloperController";
+			isController = 1;
+			label = Developer;
+		},
+	);
+}

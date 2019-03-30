@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453CA8821B69CE16006227CB /* KeyShortcut_Pro.h in Headers */ = {isa = PBXBuildFile; fileRef = 453CA8811B69CE16006227CB /* KeyShortcut_Pro.h */; };
+		453CA8841B69CE16006227CB /* KeyShortcut_Pro.m in Sources */ = {isa = PBXBuildFile; fileRef = 453CA8831B69CE16006227CB /* KeyShortcut_Pro.m */; };
+		453CA89C1B69D1FD006227CB /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 453CA89B1B69CF8C006227CB /* ZKSwizzle.m */; };
+		453CA8C51B69D741006227CB /* KeyShortcut.mm in Sources */ = {isa = PBXBuildFile; fileRef = 453CA8BD1B69D741006227CB /* KeyShortcut.mm */; };
+		453CA8C71B69D741006227CB /* KeyShortcut.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453CA8C01B69D741006227CB /* KeyShortcut.plist */; };
+		453CA8C81B69D741006227CB /* KeyShortcut.png in Resources */ = {isa = PBXBuildFile; fileRef = 453CA8C11B69D741006227CB /* KeyShortcut.png */; };
+		453CA8C91B69D741006227CB /* KeyShortcut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453CA8C21B69D741006227CB /* KeyShortcut@2x.png */; };
+		453CA8CA1B69D741006227CB /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453CA8C31B69D741006227CB /* twitter@2x.png */; };
+		4542D7571D569E6800B7725D /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4542D7561D569E6800B7725D /* Preferences.framework */; };
+		4556B6381B7831E400B253FC /* KeyShortcutHeaderClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4556B6371B7831E400B253FC /* KeyShortcutHeaderClass.mm */; };
+		45AA0E821B706B360037AD0A /* control in Resources */ = {isa = PBXBuildFile; fileRef = 45AA0E771B706B360037AD0A /* control */; };
+		45AA0E861B706B360037AD0A /* KeyShortcutPro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45AA0E811B706B360037AD0A /* KeyShortcutPro.plist */; };
+		45AA0E881B708F900037AD0A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453CA8BF1B69D741006227CB /* Info.plist */; };
+		45AA0EBE1B70DBEB0037AD0A /* fakelogos.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AA0EBD1B70D9DA0037AD0A /* fakelogos.h */; };
+		45B760611B78351A00DBEFFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453CA8B91B69D5DB006227CB /* UIKit.framework */; };
+		45B760631B7835FA00DBEFFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B760621B7835FA00DBEFFF /* CoreGraphics.framework */; };
+		45B760691B78D49300DBEFFF /* KeyShortcutConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45B760681B78D49300DBEFFF /* KeyShortcutConfiguration.plist */; };
+		45B7606B1B78D4E100DBEFFF /* KeyShortcutConfigurationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45B7606A1B78D4E100DBEFFF /* KeyShortcutConfigurationController.mm */; };
+		45B760711B78E56700DBEFFF /* KeyShortcutTintedCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45B760701B78E56700DBEFFF /* KeyShortcutTintedCell.mm */; };
+		45B760731B78E6E700DBEFFF /* KeyShortcutTintedTextCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45B760721B78E6E700DBEFFF /* KeyShortcutTintedTextCell.mm */; };
+		45B7607D1B793DD100DBEFFF /* KeyShortcutDeveloperController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45B7607C1B793DD100DBEFFF /* KeyShortcutDeveloperController.mm */; };
+		45B7607F1B793F5300DBEFFF /* KeyShortcutDevCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45B7607E1B793F5300DBEFFF /* KeyShortcutDevCell.mm */; };
+		45B760821B79418800DBEFFF /* KeyShortcutDeveloper.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45B760811B79418800DBEFFF /* KeyShortcutDeveloper.plist */; };
+		45B760841B79460D00DBEFFF /* KeyShortcutSocial.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45B760831B79460D00DBEFFF /* KeyShortcutSocial.mm */; };
+		45B760861B79F4CB00DBEFFF /* KeyShortcutFunctionsController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45B760851B79F4CB00DBEFFF /* KeyShortcutFunctionsController.mm */; };
+		45B760881B79F51D00DBEFFF /* KeyShortcutFunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45B760871B79F51D00DBEFFF /* KeyShortcutFunctions.plist */; };
+		45B7608A1B79F63000DBEFFF /* KeyShortcutTintedSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B760891B79F63000DBEFFF /* KeyShortcutTintedSwitchCell.m */; };
+		45DA3AA41D56AEE5007111BE /* KeyShortcutSpringboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DA3AA31D56AEE5007111BE /* KeyShortcutSpringboard.h */; };
+		45DA3AA61D56AEE5007111BE /* KeyShortcutSpringboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DA3AA51D56AEE5007111BE /* KeyShortcutSpringboard.m */; };
+		45DA3AB01D56B0C5007111BE /* KeyShortcutSpringboard.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DA3AAF1D56B0C5007111BE /* KeyShortcutSpringboard.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B7608B1B79F72800DBEFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453CA8761B69CE16006227CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 453CA8A11B69D366006227CB;
+			remoteInfo = KeyShortcutProPrefs;
+		};
+		45DA3AAD1D56B0B5007111BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453CA8761B69CE16006227CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DA3AA01D56AEE5007111BE;
+			remoteInfo = KeyShortcutSpringboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		453CA87E1B69CE16006227CB /* KeyShortcutPro.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = KeyShortcutPro.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		453CA8811B69CE16006227CB /* KeyShortcut_Pro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyShortcut_Pro.h; sourceTree = "<group>"; };
+		453CA8831B69CE16006227CB /* KeyShortcut_Pro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyShortcut_Pro.m; sourceTree = "<group>"; };
+		453CA89A1B69CF8C006227CB /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		453CA89B1B69CF8C006227CB /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		453CA89D1B69D21E006227CB /* ks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ks.sh; sourceTree = "<group>"; };
+		453CA8A21B69D366006227CB /* KeyShortcutProPrefs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyShortcutProPrefs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		453CA8B91B69D5DB006227CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		453CA8BC1B69D741006227CB /* entry.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = entry.plist; sourceTree = "<group>"; };
+		453CA8BD1B69D741006227CB /* KeyShortcut.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcut.mm; sourceTree = "<group>"; };
+		453CA8BF1B69D741006227CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453CA8C01B69D741006227CB /* KeyShortcut.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = KeyShortcut.plist; sourceTree = "<group>"; };
+		453CA8C11B69D741006227CB /* KeyShortcut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyShortcut.png; sourceTree = "<group>"; };
+		453CA8C21B69D741006227CB /* KeyShortcut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyShortcut@2x.png"; sourceTree = "<group>"; };
+		453CA8C31B69D741006227CB /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		4542D7561D569E6800B7725D /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = ../iPhoneOS9.2.sdk/System/Library/PrivateFrameworks/Preferences.framework; sourceTree = "<group>"; };
+		4556B6361B78273B00B253FC /* prefs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = prefs.sh; sourceTree = "<group>"; };
+		4556B6371B7831E400B253FC /* KeyShortcutHeaderClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutHeaderClass.mm; sourceTree = "<group>"; };
+		45AA0E771B706B360037AD0A /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		45AA0E7C1B706B360037AD0A /* KeyShortcutPro.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = KeyShortcutPro.plist; sourceTree = "<group>"; };
+		45AA0E7E1B706B360037AD0A /* KeyShortcutProPrefs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KeyShortcutProPrefs.bundle; sourceTree = "<group>"; };
+		45AA0E811B706B360037AD0A /* KeyShortcutPro.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = KeyShortcutPro.plist; sourceTree = "<group>"; };
+		45AA0EBD1B70D9DA0037AD0A /* fakelogos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fakelogos.h; sourceTree = "<group>"; };
+		45B760621B7835FA00DBEFFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45B760681B78D49300DBEFFF /* KeyShortcutConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyShortcutConfiguration.plist; sourceTree = "<group>"; };
+		45B7606A1B78D4E100DBEFFF /* KeyShortcutConfigurationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutConfigurationController.mm; sourceTree = "<group>"; };
+		45B760701B78E56700DBEFFF /* KeyShortcutTintedCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutTintedCell.mm; sourceTree = "<group>"; };
+		45B760721B78E6E700DBEFFF /* KeyShortcutTintedTextCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutTintedTextCell.mm; sourceTree = "<group>"; };
+		45B7607C1B793DD100DBEFFF /* KeyShortcutDeveloperController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutDeveloperController.mm; sourceTree = "<group>"; };
+		45B7607E1B793F5300DBEFFF /* KeyShortcutDevCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutDevCell.mm; sourceTree = "<group>"; };
+		45B760801B7940F800DBEFFF /* dev.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dev.h; sourceTree = "<group>"; };
+		45B760811B79418800DBEFFF /* KeyShortcutDeveloper.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyShortcutDeveloper.plist; sourceTree = "<group>"; };
+		45B760831B79460D00DBEFFF /* KeyShortcutSocial.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutSocial.mm; sourceTree = "<group>"; };
+		45B760851B79F4CB00DBEFFF /* KeyShortcutFunctionsController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyShortcutFunctionsController.mm; sourceTree = "<group>"; };
+		45B760871B79F51D00DBEFFF /* KeyShortcutFunctions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyShortcutFunctions.plist; sourceTree = "<group>"; };
+		45B760891B79F63000DBEFFF /* KeyShortcutTintedSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyShortcutTintedSwitchCell.m; sourceTree = "<group>"; };
+		45DA3A981D56A276007111BE /* KeyShortcutPro.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = KeyShortcutPro.dylib; sourceTree = "<group>"; };
+		45DA3A9A1D56AA5C007111BE /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		45DA3A9C1D56AC32007111BE /* ent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ent.plist; path = ../ent.plist; sourceTree = "<group>"; };
+		45DA3AA11D56AEE5007111BE /* KeyShortcutSpringboard.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = KeyShortcutSpringboard.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DA3AA31D56AEE5007111BE /* KeyShortcutSpringboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyShortcutSpringboard.h; sourceTree = "<group>"; };
+		45DA3AA51D56AEE5007111BE /* KeyShortcutSpringboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyShortcutSpringboard.m; sourceTree = "<group>"; };
+		45DA3AAA1D56AF7A007111BE /* KeyShortcutSpringboard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyShortcutSpringboard.plist; sourceTree = "<group>"; };
+		45DA3AAF1D56B0C5007111BE /* KeyShortcutSpringboard.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = KeyShortcutSpringboard.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453CA87B1B69CE16006227CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DA3AB01D56B0C5007111BE /* KeyShortcutSpringboard.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453CA89F1B69D366006227CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4542D7571D569E6800B7725D /* Preferences.framework in Frameworks */,
+				45B760631B7835FA00DBEFFF /* CoreGraphics.framework in Frameworks */,
+				45B760611B78351A00DBEFFF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DA3A9E1D56AEE5007111BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453CA8751B69CE16006227CB = {
+			isa = PBXGroup;
+			children = (
+				45DA3A9A1D56AA5C007111BE /* common.h */,
+				45B760621B7835FA00DBEFFF /* CoreGraphics.framework */,
+				45AA0EBD1B70D9DA0037AD0A /* fakelogos.h */,
+				45AA0E751B706B360037AD0A /* staging */,
+				453CA8B91B69D5DB006227CB /* UIKit.framework */,
+				453CA89D1B69D21E006227CB /* ks.sh */,
+				4556B6361B78273B00B253FC /* prefs.sh */,
+				453CA8991B69CF8C006227CB /* ZKSwizzle */,
+				453CA8801B69CE16006227CB /* KeyShortcut-Pro */,
+				453CA8BB1B69D741006227CB /* KeyShortcutProPrefs */,
+				45DA3AA21D56AEE5007111BE /* KeyShortcutSpringboard */,
+				453CA87F1B69CE16006227CB /* Products */,
+				4542D7551D569E6800B7725D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		453CA87F1B69CE16006227CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453CA87E1B69CE16006227CB /* KeyShortcutPro.dylib */,
+				453CA8A21B69D366006227CB /* KeyShortcutProPrefs.bundle */,
+				45DA3AA11D56AEE5007111BE /* KeyShortcutSpringboard.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453CA8801B69CE16006227CB /* KeyShortcut-Pro */ = {
+			isa = PBXGroup;
+			children = (
+				453CA8811B69CE16006227CB /* KeyShortcut_Pro.h */,
+				453CA8831B69CE16006227CB /* KeyShortcut_Pro.m */,
+			);
+			path = "KeyShortcut-Pro";
+			sourceTree = "<group>";
+		};
+		453CA8991B69CF8C006227CB /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				453CA89A1B69CF8C006227CB /* ZKSwizzle.h */,
+				453CA89B1B69CF8C006227CB /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+		453CA8BB1B69D741006227CB /* KeyShortcutProPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				45DA3A9C1D56AC32007111BE /* ent.plist */,
+				453CA8BC1B69D741006227CB /* entry.plist */,
+				453CA8BD1B69D741006227CB /* KeyShortcut.mm */,
+				4556B6371B7831E400B253FC /* KeyShortcutHeaderClass.mm */,
+				45B7606A1B78D4E100DBEFFF /* KeyShortcutConfigurationController.mm */,
+				45B760701B78E56700DBEFFF /* KeyShortcutTintedCell.mm */,
+				45B760721B78E6E700DBEFFF /* KeyShortcutTintedTextCell.mm */,
+				45B7607C1B793DD100DBEFFF /* KeyShortcutDeveloperController.mm */,
+				45B7607E1B793F5300DBEFFF /* KeyShortcutDevCell.mm */,
+				45B760831B79460D00DBEFFF /* KeyShortcutSocial.mm */,
+				45B760851B79F4CB00DBEFFF /* KeyShortcutFunctionsController.mm */,
+				45B760891B79F63000DBEFFF /* KeyShortcutTintedSwitchCell.m */,
+				45B760801B7940F800DBEFFF /* dev.h */,
+				453CA8BE1B69D741006227CB /* Resources */,
+			);
+			path = KeyShortcutProPrefs;
+			sourceTree = "<group>";
+		};
+		453CA8BE1B69D741006227CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				453CA8BF1B69D741006227CB /* Info.plist */,
+				453CA8C01B69D741006227CB /* KeyShortcut.plist */,
+				453CA8C11B69D741006227CB /* KeyShortcut.png */,
+				453CA8C21B69D741006227CB /* KeyShortcut@2x.png */,
+				453CA8C31B69D741006227CB /* twitter@2x.png */,
+				45B760681B78D49300DBEFFF /* KeyShortcutConfiguration.plist */,
+				45B760811B79418800DBEFFF /* KeyShortcutDeveloper.plist */,
+				45B760871B79F51D00DBEFFF /* KeyShortcutFunctions.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4542D7551D569E6800B7725D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4542D7561D569E6800B7725D /* Preferences.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45AA0E751B706B360037AD0A /* staging */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0E761B706B360037AD0A /* DEBIAN */,
+				45AA0E781B706B360037AD0A /* Library */,
+			);
+			path = staging;
+			sourceTree = "<group>";
+		};
+		45AA0E761B706B360037AD0A /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0E771B706B360037AD0A /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		45AA0E781B706B360037AD0A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0E791B706B360037AD0A /* MobileSubstrate */,
+				45AA0E7D1B706B360037AD0A /* PreferenceBundles */,
+				45AA0E7F1B706B360037AD0A /* PreferenceLoader */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		45AA0E791B706B360037AD0A /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0E7A1B706B360037AD0A /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		45AA0E7A1B706B360037AD0A /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				45DA3AAF1D56B0C5007111BE /* KeyShortcutSpringboard.dylib */,
+				45DA3A981D56A276007111BE /* KeyShortcutPro.dylib */,
+				45AA0E7C1B706B360037AD0A /* KeyShortcutPro.plist */,
+				45DA3AAA1D56AF7A007111BE /* KeyShortcutSpringboard.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		45AA0E7D1B706B360037AD0A /* PreferenceBundles */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0E7E1B706B360037AD0A /* KeyShortcutProPrefs.bundle */,
+			);
+			path = PreferenceBundles;
+			sourceTree = "<group>";
+		};
+		45AA0E7F1B706B360037AD0A /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0E801B706B360037AD0A /* Preferences */,
+			);
+			path = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		45AA0E801B706B360037AD0A /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				45AA0E811B706B360037AD0A /* KeyShortcutPro.plist */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		45DA3AA21D56AEE5007111BE /* KeyShortcutSpringboard */ = {
+			isa = PBXGroup;
+			children = (
+				45DA3AA31D56AEE5007111BE /* KeyShortcutSpringboard.h */,
+				45DA3AA51D56AEE5007111BE /* KeyShortcutSpringboard.m */,
+			);
+			path = KeyShortcutSpringboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		453CA87C1B69CE16006227CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AA0EBE1B70DBEB0037AD0A /* fakelogos.h in Headers */,
+				453CA8821B69CE16006227CB /* KeyShortcut_Pro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DA3A9F1D56AEE5007111BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DA3AA41D56AEE5007111BE /* KeyShortcutSpringboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		453CA87D1B69CE16006227CB /* KeyShortcut-Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453CA8911B69CE16006227CB /* Build configuration list for PBXNativeTarget "KeyShortcut-Pro" */;
+			buildPhases = (
+				453CA87A1B69CE16006227CB /* Sources */,
+				453CA87B1B69CE16006227CB /* Frameworks */,
+				453CA87C1B69CE16006227CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DA3AAE1D56B0B5007111BE /* PBXTargetDependency */,
+				45B7608C1B79F72800DBEFFF /* PBXTargetDependency */,
+			);
+			name = "KeyShortcut-Pro";
+			productName = "KeyShortcut-Pro";
+			productReference = 453CA87E1B69CE16006227CB /* KeyShortcutPro.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		453CA8A11B69D366006227CB /* KeyShortcutProPrefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453CA8A51B69D366006227CB /* Build configuration list for PBXNativeTarget "KeyShortcutProPrefs" */;
+			buildPhases = (
+				453CA89E1B69D366006227CB /* Sources */,
+				453CA89F1B69D366006227CB /* Frameworks */,
+				453CA8A01B69D366006227CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyShortcutProPrefs;
+			productName = KeyShorcutProPrefs;
+			productReference = 453CA8A21B69D366006227CB /* KeyShortcutProPrefs.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		45DA3AA01D56AEE5007111BE /* KeyShortcutSpringboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DA3AA71D56AEE5007111BE /* Build configuration list for PBXNativeTarget "KeyShortcutSpringboard" */;
+			buildPhases = (
+				45DA3A9D1D56AEE5007111BE /* Sources */,
+				45DA3A9E1D56AEE5007111BE /* Frameworks */,
+				45DA3A9F1D56AEE5007111BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyShortcutSpringboard;
+			productName = KeyShortcutSpringboard;
+			productReference = 45DA3AA11D56AEE5007111BE /* KeyShortcutSpringboard.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453CA8761B69CE16006227CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mustafa Gezen";
+				TargetAttributes = {
+					453CA87D1B69CE16006227CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					453CA8A11B69D366006227CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					45DA3AA01D56AEE5007111BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T32QBVCS8A;
+						DevelopmentTeamName = "Mustafa Gezen (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 453CA8791B69CE16006227CB /* Build configuration list for PBXProject "KeyShortcut-Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 453CA8751B69CE16006227CB;
+			productRefGroup = 453CA87F1B69CE16006227CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453CA87D1B69CE16006227CB /* KeyShortcut-Pro */,
+				453CA8A11B69D366006227CB /* KeyShortcutProPrefs */,
+				45DA3AA01D56AEE5007111BE /* KeyShortcutSpringboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453CA8A01B69D366006227CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B760691B78D49300DBEFFF /* KeyShortcutConfiguration.plist in Resources */,
+				45AA0E881B708F900037AD0A /* Info.plist in Resources */,
+				45B760881B79F51D00DBEFFF /* KeyShortcutFunctions.plist in Resources */,
+				45AA0E861B706B360037AD0A /* KeyShortcutPro.plist in Resources */,
+				45AA0E821B706B360037AD0A /* control in Resources */,
+				45B760821B79418800DBEFFF /* KeyShortcutDeveloper.plist in Resources */,
+				453CA8CA1B69D741006227CB /* twitter@2x.png in Resources */,
+				453CA8C71B69D741006227CB /* KeyShortcut.plist in Resources */,
+				453CA8C91B69D741006227CB /* KeyShortcut@2x.png in Resources */,
+				453CA8C81B69D741006227CB /* KeyShortcut.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453CA87A1B69CE16006227CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453CA89C1B69D1FD006227CB /* ZKSwizzle.m in Sources */,
+				453CA8841B69CE16006227CB /* KeyShortcut_Pro.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453CA89E1B69D366006227CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B7607F1B793F5300DBEFFF /* KeyShortcutDevCell.mm in Sources */,
+				45B7607D1B793DD100DBEFFF /* KeyShortcutDeveloperController.mm in Sources */,
+				45B760731B78E6E700DBEFFF /* KeyShortcutTintedTextCell.mm in Sources */,
+				45B760711B78E56700DBEFFF /* KeyShortcutTintedCell.mm in Sources */,
+				45B7606B1B78D4E100DBEFFF /* KeyShortcutConfigurationController.mm in Sources */,
+				45B7608A1B79F63000DBEFFF /* KeyShortcutTintedSwitchCell.m in Sources */,
+				4556B6381B7831E400B253FC /* KeyShortcutHeaderClass.mm in Sources */,
+				45B760841B79460D00DBEFFF /* KeyShortcutSocial.mm in Sources */,
+				45B760861B79F4CB00DBEFFF /* KeyShortcutFunctionsController.mm in Sources */,
+				453CA8C51B69D741006227CB /* KeyShortcut.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DA3A9D1D56AEE5007111BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DA3AA61D56AEE5007111BE /* KeyShortcutSpringboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B7608C1B79F72800DBEFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 453CA8A11B69D366006227CB /* KeyShortcutProPrefs */;
+			targetProxy = 45B7608B1B79F72800DBEFFF /* PBXContainerItemProxy */;
+		};
+		45DA3AAE1D56B0B5007111BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45DA3AA01D56AEE5007111BE /* KeyShortcutSpringboard */;
+			targetProxy = 45DA3AAD1D56B0B5007111BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		453CA88F1B69CE16006227CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Muharrem Gezen (FGTUP58EL5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		453CA8901B69CE16006227CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Muharrem Gezen (FGTUP58EL5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		453CA8921B69CE16006227CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ZKSwizzle";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/staging/Library/MobileSubstrate/DynamicLibraries",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-segalign,4000";
+				PRODUCT_NAME = KeyShortcutPro;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 x86_64 i386";
+			};
+			name = Debug;
+		};
+		453CA8931B69CE16006227CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ZKSwizzle";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/staging/Library/MobileSubstrate/DynamicLibraries",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-segalign,4000";
+				PRODUCT_NAME = KeyShortcutPro;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		453CA8A61B69D366006227CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/ent.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				COMPRESS_PNG_FILES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/sdks/iPhoneOS9.2.sdk/System/Library/PrivateFrameworks";
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/dev/jb/theos/include",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = KeyShortcutProPrefs/Resources/Info.plist;
+				INSTALL_PATH = /Library/PreferenceBundles;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mstg.KeyShortcutProPrefs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		453CA8A71B69D366006227CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/ent.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				COMPRESS_PNG_FILES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/sdks/iPhoneOS9.2.sdk/System/Library/PrivateFrameworks";
+				HEADER_SEARCH_PATHS = (
+					"$(HOME)/dev/jb/theos/include",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = KeyShortcutProPrefs/Resources/Info.plist;
+				INSTALL_PATH = /Library/PreferenceBundles;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mstg.KeyShortcutProPrefs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		45DA3AA81D56AEE5007111BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-Wl,-segalign,4000";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		45DA3AA91D56AEE5007111BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "-Wl,-segalign,4000";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453CA8791B69CE16006227CB /* Build configuration list for PBXProject "KeyShortcut-Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453CA88F1B69CE16006227CB /* Debug */,
+				453CA8901B69CE16006227CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453CA8911B69CE16006227CB /* Build configuration list for PBXNativeTarget "KeyShortcut-Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453CA8921B69CE16006227CB /* Debug */,
+				453CA8931B69CE16006227CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453CA8A51B69D366006227CB /* Build configuration list for PBXNativeTarget "KeyShortcutProPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453CA8A61B69D366006227CB /* Debug */,
+				453CA8A71B69D366006227CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DA3AA71D56AEE5007111BE /* Build configuration list for PBXNativeTarget "KeyShortcutSpringboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DA3AA81D56AEE5007111BE /* Debug */,
+				45DA3AA91D56AEE5007111BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453CA8761B69CE16006227CB /* Project object */;
+}
